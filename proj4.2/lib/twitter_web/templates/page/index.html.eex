@@ -1,0 +1,20 @@
+
+
+<section class="phx-hero">
+<h1> Twitter Engine</h1>
+<form id = "user-form">
+  Username:<br>
+  <input type="text" name="firstname" placeholder = "Name" id = "Fname"><br>
+  Subscribe:<br>
+  <input type="text" name="subscribe" placeholder = "Subscriber" id = "subs"><br>
+  Tweet:<br>
+  <input type="text" name="tweets" placeholder = "What's on your mind?" id = "tweets"><br>
+  Tweet Query:<br>
+  <input type = "text" name = "Hashtag-query" placeholder = "#Tweet" id = "hashtag"> 
+  Mention Query:<br>
+  <input type = "text" name = "Mention-query" placeholder = "@Mention" id = "mention">
+  
+</form>
+
+<div id ="messages"></div>
+</section>
