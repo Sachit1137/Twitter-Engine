@@ -1,0 +1,11 @@
+{application,twitter,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"twitter"},
+              {modules,['Elixir.Project4.Client',
+                        'Elixir.Project4.ClientSupervisor',
+                        'Elixir.Project4.Driver','Elixir.Project4.Execution',
+                        'Elixir.Project4.NodeSupervisor',
+                        'Elixir.Project4.Server',
+                        'Elixir.Project4.ServerSupervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
